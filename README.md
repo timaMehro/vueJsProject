@@ -20,26 +20,13 @@ npm run build
 npm run lint
 ```
 
-## Todo
+## 
 
-| Task | Difficulty | Related File |
-| ---- | ---------- | ------------ |
-| Implement saving of images | Moderate | `src/components/TaskImages.vue` |
-
-## API Endpoints
-
-| Path | Method | Requires Auth | Body | Response | Description |
-| ---- | ------ | ------------- | ---- | -------- | ----------- |
-| /auth | POST | | `{ "email": "test@email.com", "password": "test" }` | `{ "accessToken": "123..." }` | Login user |
-| /auth | DELETE | | | | Logout user |
-| /me | GET | ✓ | | `{ "id": 123, "email": "test@email.com", ... }` | Get authenticated user |
-| /users | GET | | | `[{ "id": 123, "email": "test@email.com", ... }, ...]` | Get all users |
-| /projects | GET | | | `[{ "id": 123, "name": "Project", ... }, ...]` | Get all projects |
-| /tasks | GET | | | `[{ "id": 123, "title": "Task", ... }, ...]` | Get all tasks |
-| /tasks | POST | | `{ "title": "Task", ... }` | `{ "id": 123, "title": "Task", ... }` | Create new task |
-| /tasks/:id | GET | | | `{ "id": 123, "title": "Task", ... }` | Get task |
-| /tasks/:id | PUT | | `{ "title": "Task", ... }` | `{ "id": 123, "title": "Task", ... }` | Update task |
-| /images | POST | | `FormData { "file": File }` | `"/path/to/image.jpg"` | Upload a new image |
+| Filter tasks by date 
+| Automatically save task when changes are made
+| Implement saving of images 
+| Auto-grow description field based on content
+| Implement drag & drop for marking tasks as complete/incomplete
 
 
 ## Models
