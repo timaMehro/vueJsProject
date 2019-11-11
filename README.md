@@ -20,7 +20,7 @@ npm run build
 npm run lint
 ```
 
-## 
+## Items 
 
 | Filter tasks by date 
 | Automatically save task when changes are made
